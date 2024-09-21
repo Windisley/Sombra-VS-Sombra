@@ -8,7 +8,7 @@
 }
 
 .container .contimgs{
-  width: 100%;
+  width: 80%;
   max-width: 600px;
   margin: 0 auto;
   min-height: 300px;
@@ -65,7 +65,7 @@
 }
 
 .boxcodeshadow{
-  width: 100%;
+  width: 80%;
   max-width: 600px;
   margin: 0 auto;
   min-height: 300px;
@@ -84,9 +84,18 @@
   height: 100%;
   max-width: 600px;
   margin: 0 auto;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
  
+}
+
+@media screen and (max-width: 600px) {
+  .contimgs{
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
 }
 
 
