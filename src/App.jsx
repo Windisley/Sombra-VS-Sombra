@@ -17,6 +17,10 @@ function App() {
         </div>
 
       </div>
+
+      <div className="boxcodeshadow">
+          <img src="codeshadow.png" alt="diferença de sombra com o drop-shadow VS filter(dropshadow)" />
+      </div>
     </div>
   )
 }
