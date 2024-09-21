@@ -8,10 +8,12 @@ function App() {
     <div className="container">
       <div className="contimgs">
         <div className='boximgs'>
-          <img src="/piramides.png" alt="Piramides do Egito" />
+          <h1>imagem1</h1>  
+          <img src="/piramides.png" alt="Piramides do Egito"  className='imagem1'/>
         </div>
         <div className='boximgs'>
-          <img src="/piramides.png" alt="Piramides do Egito" />
+          <h1>imagem2</h1>  
+          <img src="/piramides.png" alt="Piramides do Egito"  className='imagem2'/>
         </div>
 
       </div>
